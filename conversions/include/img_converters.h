@@ -45,7 +45,7 @@ bool fmt2jpg_cb(uint8_t *src, size_t src_len, uint16_t width, uint16_t height, p
 /**
  * @brief Convert camera frame buffer to JPEG
  *
- * @param fb        Source camera frame buffer
+ * @param fb        Source camera frame buffer except for JPEG image format
  * @param quality   JPEG quality of the resulting image
  * @param cp        Callback to be called to write the bytes of the output JPEG
  * @param arg       Pointer to be passed to the callback
